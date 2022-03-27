@@ -1,0 +1,62 @@
+.myLoader {
+  position: fixed;
+  z-index: 100000;
+  background-color: rgba(187, 187, 187, 0.384);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @keyframes ldio-6co2x7efp9u {
+    0% {
+      top: 96px;
+      left: 96px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 18px;
+      left: 18px;
+      width: 156px;
+      height: 156px;
+      opacity: 0;
+    }
+  }
+  .ldio-6co2x7efp9u div {
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    opacity: 1;
+    border-radius: 50%;
+    animation: ldio-6co2x7efp9u 0.8s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .ldio-6co2x7efp9u div:nth-child(1) {
+    border-color: #e90c59;
+    animation-delay: 0s;
+  }
+  .ldio-6co2x7efp9u div:nth-child(2) {
+    border-color: #000000;
+    animation-delay: -0.4s;
+  }
+  .loadingio-spinner-ripple-6sk4j73oq33 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background: transparent;
+  }
+  .ldio-6co2x7efp9u {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+  }
+  .ldio-6co2x7efp9u div {
+    box-sizing: content-box;
+  }
+}
